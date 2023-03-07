@@ -1,4 +1,42 @@
+
 .cover-container figure img {
     height: 120%;
+    width: 100%;
 
+}
+
+main h3.title {
+    font-size: 1.2em;
+}
+
+main section abbr {
+    color: #25cbd3;
+}
+
+@media screen and (min-width: 992px) {
+    .cover-container figure {
+        margin: 0;
+        padding: 10%;
+        width: 100%;
+        height: 265px;
+
+
+    }
+
+    .cover-container,
+    .section-video {
+        display: inline-block;
+    }
+
+    .cover-container figure figcaption.texto-figure {
+        display: none;
+
+    }
+
+    main .section-azure blockquote {
+        width: 70%;
+        margin: auto;
+        margin-bottom: 25px;
+        text-align: center;
+    }
 }

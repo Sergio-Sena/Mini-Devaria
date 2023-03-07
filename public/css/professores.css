@@ -1,0 +1,38 @@
+/* Estilos css da página professores */
+
+.content-container>div img {
+    padding: 20px;
+    border-radius: 30px;
+
+
+}
+
+
+.content-container {
+    padding: 20px;
+}
+
+.content-container h2.title {
+    font-size: 1.5em;
+}
+
+.content-container img {
+    width: 85%;
+    border: 2px double;
+}
+
+@media screen and (min-width: 992px) {
+    .content-container>div img {
+        width: 97%;
+    }
+
+    .content-container p.text-justify {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .width-50pct-desktop {
+        width: 97%;
+    }    
+}
